@@ -4,13 +4,13 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class redirect extends Model {
+class Redirects extends Model {
     /**
      * The database table used by the model.
      *
      * @var string
      */
-    protected $table = 'redirect';
+    protected $table = 'redirects';
     /**
      * The attributes that are mass assignable.
      *

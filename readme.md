@@ -3,13 +3,15 @@ This is a URL Shortener Written by Adam Fowler
 
 This Project uses the following technologies:
 - Lumen / Eloquent / Blade
-- Mysql
+- MySQL
 
 To get started
-- Run a composer install
-- create a `.env` file
-- run the migration
-- run `bash serve.sh`
+- Checkout the repo `git clone git@github.com:lilglower/lumen-url-shortener.git`
+- CD into the repo it `cd lumen-url-shortener`
+- Run a composer install, `composer install`
+- create a `.env` file, use the template like this: `cp .env.example .env && vi .env`
+- run the migration with `php artisan migrate`
+- Serve the application with `php artisan serve`
 
 #### Licence
 Copyright (c) 2018 Adam Fowler
